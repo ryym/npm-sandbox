@@ -1,7 +1,7 @@
 {
   "name": "@ryym/npm-sandbox",
   "description": "Noop sandbox package for me",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "author": "ryym <ryym.64@gmail.com>",
   "license": "MIT"
