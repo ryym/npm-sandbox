@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- '6'
+notifications:
+  email: false
+deploy:
+  provider: npm
+  email: ryym.64@gmail.com
+  api_key:
+    secure: Ip0utctH5iRXExxA5vNLIsS8sJweLeyqa+eNKYisiHWMApcomx8o//HtHgs0KgFxcGyL28V1v1WaFJfrEDu/eTQEgwyq7nDYj7sn8KynCH2MXuOQ860WAqepLU54vXaBv/6JSQuiZc7kFOWLfND7wwxs7bBcUcM8eOwVxM+LOStNRFC6bVLjFUoxp5vNdBg3iZjnQ3ul2cRfMWtXLCV5d1X3rTx7hwwsR4MKxqzwnM8ETs4e6X8d85w/PPfZAzm8cJnGsLB1ZjyDGKTMjUjAK00U5l58s+/D8jDP+iuFukqNfHx4tkMYPB/6L9qunuyXuKdIb4qqHa2ghJI0e0jWbOoav54CiuTmgBoMeSuJY/LDxgCHv19c5DlWXFB92jVUiH6iJ8UJRsMNwERq5dSsMiDbL2w1Vz508ajzP+KQHlNI3YniJDWU8jePrCvUYtaZkcpbCKC9aNctao07+HTDfbPxvN6KdPNxuaF6UMLfPVJJGtsOZRHzTo2Rs7R9ZNlt7XKT4YVJeJ5bjChHk18fmg5Fm8+hvzOg2fUTXYk4wkrdjjaf+Zaz6eYpl61L1E93VgiAJ+SQOO9VZonYPZbrhDHlkQD+ezqLt6oZT1CF+tB80rjgwZ6XMv4NtNarMVJrAMDLNg07gLQbGWfUoJ5LPWEMs1nSSBN4AEa+257oOxc=
+  on:
+    tags: true
+    repo: ryym/npm-sandbox
